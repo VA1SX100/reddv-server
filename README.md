@@ -99,7 +99,7 @@ Other Linux distributions or CPU architectures may work, but are not officially 
 For **x86_64 Ubuntu Server 22.04 / 24.04**, RedDV Server can be installed with a single command:
 
 ```bash
-curl -fsSL https://github.com/VA1SX100/reddv-server/releases/latest/download/install.sh | sudo bash
+ wget -qO- https://auth-static.reddv.uk/releases/latest/install.sh | sudo bash
 ```
 
 The installation script will automatically install and configure the required RedDV Server components.
