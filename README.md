@@ -123,6 +123,21 @@ or, for a public server:
 ```text
 http://YOUR_PUBLIC_IP:8080
 ```
+The server needs to open the following ports, or alternatively allow all required ports:
+
+* 8080/TCP
+* 62031/UDP
+* 41000/UDP
+* 41400/UDP
+* 42000/UDP
+* 20001/UDP
+* 30001/UDP
+* 30051/UDP
+* 1883/TCP
+* 18083/TCP
+* 8883/TCP
+* 8083/TCP
+* 8084/TCP
 
 ## Default Administrator Account
 
